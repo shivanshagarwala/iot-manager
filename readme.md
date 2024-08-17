@@ -11,6 +11,12 @@ This project is built using the MERN stack (MongoDB, Express.js, React.js, Node.
 2. **IoT Device Simulation**: Simulates temperature and humidity readings for IoT devices.
 3. **Frontend Client**: Provides a user interface to visualize device data.
 
+### Demo
+
+Here’s a GIF demonstrating the frontend in action at 16x speed:
+
+![Frontend Demo](./frontend/public/frontend.gif)
+
 ## Environment Variables
 
 In the `.env` file, you need to specify the following variables:
@@ -96,12 +102,6 @@ In the `.env` file, you need to specify the following variables:
     - **Endpoint**: `GET /devices-graph/`
     - **Query Parameter**: `deviceUid=your-device-uid`
     - **Description**: Returns an HTML page with graphs plotting temperature and humidity over time.
-
-### Demo
-
-Here’s a GIF demonstrating the frontend in action at 16x speed:
-
-![Frontend Demo](./frontend/public/frontend.gif)
 
 
 ## Project Tasks
